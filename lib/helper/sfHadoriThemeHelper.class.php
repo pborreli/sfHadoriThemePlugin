@@ -18,7 +18,7 @@ class sfHadoriThemeHelper
   {
     if (!$this->choiceFormatter)
     {
-      $this->choiceFormatter = $this->format = new sfChoiceFormat();
+      $this->choiceFormatter = new sfChoiceFormat();
     }
 
     return $this->choiceFormatter;
@@ -124,5 +124,7 @@ class sfHadoriThemeHelper
         return true;
       }
     }
+
+    return false;
   }
 }
