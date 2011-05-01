@@ -1,6 +1,6 @@
 <div id="information">
   [?php if (!$pager->getNbResults()): ?]
-    <p><?php echo $this->renderHtmlText('No Results') ?></p>
+    <p><?php echo $this->renderHtmlText('No Result') ?></p>
   [?php else: ?]
     <table cellspacing="0">
       <thead>
