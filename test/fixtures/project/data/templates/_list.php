@@ -1,1 +1,0 @@
-<h2>A Custom List Partial For My Theme</h2>
