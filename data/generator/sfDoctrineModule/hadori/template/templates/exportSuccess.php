@@ -22,12 +22,12 @@
 
   <div class="export-preview">
     [?php include_partial('<?php echo $this->getModuleName() ?>/list', array('pager' => $pager, 'helper' => $helper)) ?]
-    <ul class="actions">
+    <p class="actions">
 <?php foreach ($this->configuration->getValue('export.actions') as $name => $params): ?>
-      <li><?php echo $this->linkTo($name, $params) ?></li>
+      <?php echo $this->linkTo($name, $params) ?>
   
 <?php endforeach; ?>    
-    </ul>
+    </p>
   </div> 
 
 
